@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+#investmentChart {
+    margin: 20px auto;
+}
+
+#result {
+    font-weight: bold;
+}
+
+.chart-container canvas {
+    width: 30%; /* largura definida como 100% da largura do contêiner pai */
+    height: 500px; /* altura fixa de 500 pixels */
+}
+
+
+
+

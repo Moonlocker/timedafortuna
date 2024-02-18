@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Investimento</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Investimento</h1>
+        <label for="initialAmount">Valor Inicial:</label>
+        <input type="number" id="initialAmount" placeholder="Valor inicial">
+        <label for="annualPercentage">Porcentagem Anual do Rendimento:</label>
+        <input type="number" id="annualPercentage" placeholder="Porcentagem anual">
+        <label for="years">Tempo (em anos):</label>
+        <input type="number" id="years" placeholder="Tempo em anos">
+        <label for="monthlyContribution">Aporte Mensal:</label>
+        <input type="number" id="monthlyContribution" placeholder="Aporte mensal">
+        <button onclick="calculate()">Calcular</button>
+        <div id="result"></div>
+        <div class="chart-container">
+            <canvas id="investmentChart"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
